@@ -1,0 +1,82 @@
+{
+  "home": {
+    "about": {
+      "content":
+        "At Fanega Web Development, we design and develop modern SEO-friendly websites for small businesses, bloggers, fitness coaches, and anyone you can think of that needs a website! Our goal is to ensure our clients receive the best service in creating their dream websites.<br/><br/> If you are looking for a new website made from scratch, a current website that needs updating, or a small revision made, our developers and designers can help you out. With the world rapidly turning into the internet, now is the time to make your website stand out!"
+    },
+    "services": {
+      "content": {
+        "mobileFirstDesign": {
+          "title": "Mobile-First Design",
+          "content": "I prioritize mobile user experience, starting design and development from small screens to large screens; known as “Mobile-First Design”",
+          "imageUrl": "/home/mobile-first-design.svg"
+        },
+        "responsive": {
+          "title": "Responsive",
+          "content": "Applying the Mobile-First Design, your website will fully be responsive. It'll look amazing on your phone as well as on your computer screen.",
+          "imageUrl": "/home/responsive.svg"
+        },
+        "optimized": {
+          "title": "Optimize",
+          "content": "SEO is an important tool to bring in clients and customers. Apart from ads, I will ensure your website is optimized in Google's Search Engine.",
+          "imageUrl": "/home/seo.svg"
+        }
+      }
+    },
+    "packages": {
+      "examples": {
+        "exerpt": "$500 to start a standard 5-page business or professional website. Custom features will be priced on the type of feature.<br/><br/>All external factors such as domain, hosting, emailing, and other fees using 3rd-Party software are not included.",
+        "content": {
+          "simple": {
+            "title": "Simple HTML, JS, and CSS",
+            "description": "A simple website with no editing features or additional hosting cost.",
+            "imageUrl": "/home/html.svg"
+          },
+          "pageBuilders": {
+            "title": "Page Builders",
+            "description": "Have a page builder already made? I can help you design better.",
+            "imageUrl": "/home/page-builder.svg"
+          },
+          "wordpress": {
+            "title": "Custom WordPress Theme",
+            "description": "A WordPress website focused on creating editable content.",
+            "imageUrl": "/home/wordpress.svg"
+          },
+          "wordpressHeadless": {
+            "title": "Headless WordPress",
+            "description": "A website with the benefits of both a CMS and SPA.",
+            "imageUrl": "/home/headless-cms.svg"
+          }
+        }
+      }
+    },
+    "featuredWorks": {
+      "content": {
+        "futureConnect": {
+          "title": "Future Connect, LLC",
+          "description": "Headless CMS using Next.js and WordPress",
+          "imageUrl": "/featured-works/futureConnect.webp",
+          "url": "https://futureconnect.one"
+        },
+        "leePorterFitness": {
+          "title": "Lee Porter Fitness",
+          "description": "A simple website using HTML, JS, and CSS",
+          "imageUrl": "/featured-works/leePorterFitness.webp",
+          "url": "https://leeporter.fitness"
+        },
+        "deanllc": {
+          "title": "Law Offices of Gerardo L. Dean LLC",
+          "description": "Page Builder using GoDaddy",
+          "imageUrl": "/featured-works/deanllc.webp",
+          "url": "https://gldean.com"
+        },
+        "talaTherapy": {
+          "title": "Tala Therapy, LLC",
+          "description": "A simple website using HTML, JS, and CSS",
+          "imageUrl": "/featured-works/talaTherapy.webp",
+          "url": "https://talatherapy.com"
+        }
+      }
+    }
+  }
+}

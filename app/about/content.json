@@ -1,0 +1,12 @@
+{
+  "about": {
+    "content": {
+      "description": "Fanega Web Development is a small business based in the Chicagoland area, but are known nationally. It is focused on creating websites for small business owners and individuals who need to showcase their work. At Fanega Web Development, we strive to perfect our craft. From designing, to developing, we take the care and personal touch to make sure yourexperience creating your next website is pleasant and easy. <br/><br/> Find out more about our services <a href=\"/services\">here</a>.",
+      "imageUrl": "/about/aboutUsImage.webp",
+      "profilePictureUrl": "/about/profilePicture.webp",
+      "name": "Steve Fanega",
+      "title": "Owner and Founder",
+      "background" : "Steve has worked as a PHP Developer and as an Assistant Web Developer before embarking on his journey to creating a small business focusing on creating amazing websites. He has a Bachelor of Science in Computer Science from North Central College."
+    }
+  }
+}
