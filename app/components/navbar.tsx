@@ -2,7 +2,7 @@
 
 import { usePathname  } from "next/navigation";
 import Image from "next/image";
-import logo from "@/public/services/services-hosting.svg";
+import logo from "@/public/fwd-logo.png";
 
 export default function Navbar() {
   const activeLink = usePathname();
