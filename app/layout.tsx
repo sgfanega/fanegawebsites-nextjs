@@ -28,7 +28,7 @@ export const metadata: Metadata = {
     siteName: 'Fanega Web Development',
     images: [
       {
-        url: 'https://fanegawebsites.com/og-image.jpg',
+        url: '/og-image.jpg',
         width: 800,
         height: 600
       }
