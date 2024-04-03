@@ -1,7 +1,7 @@
 "use client";
 
 import Image from "next/image";
-import logo from "@/public/fwd-logo-words-blue.png";
+import logo from "../../public/fwd-logo-words-blue.png";
 
 export default function Footer() {
   return (
