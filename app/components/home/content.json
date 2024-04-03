@@ -38,12 +38,12 @@
             "imageUrl": "/home/page-builder.svg"
           },
           "wordpress": {
-            "title": "Custom WordPress Theme",
+            "title": "WordPress",
             "description": "A WordPress website focused on creating editable content.",
             "imageUrl": "/home/wordpress.svg"
           },
           "wordpressHeadless": {
-            "title": "Headless WordPress",
+            "title": "Headless CMS",
             "description": "A website with the benefits of both a CMS and SPA.",
             "imageUrl": "/home/headless-cms.svg"
           }

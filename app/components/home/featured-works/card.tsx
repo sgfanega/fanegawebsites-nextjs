@@ -9,11 +9,11 @@ interface CardProps {
 
 export default function Card({ title, description, imageUrl, url} : CardProps) {
   return (
-    <div className="card mx-2 my-3 mb-lg-5 mt-lg-0" style={{width: "20rem", borderRadius: "1rem"}}>
+    <div className="card mx-2 my-3 mb-lg-5 mt-lg-0 border-2 border-accent-secondary" style={{width: "20rem" }}>
       <Image 
         src={imageUrl}
-        style={{borderTopLeftRadius: "1rem", borderTopRightRadius: "1rem"}}
-        className="card-img-top border-bottom border-background-secondary" 
+        // style={{borderTopLeftRadius: "1rem", borderTopRightRadius: "1rem"}}
+        className="card-img-top border-bottom-2 border-accent-secondary" 
         alt={title + " Website Image"}
         width={100}
         height={150}

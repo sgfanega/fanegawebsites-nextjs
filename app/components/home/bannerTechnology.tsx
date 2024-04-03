@@ -1,6 +1,7 @@
 "use client";
 
 import Image from "next/image";
+import wordpressLogo from "@/public/icons/wordpress.svg";
 import cloudFlareLogo from "@/public/icons/cloudflare-original.svg";
 import css3Logo from "@/public/icons/css3-original.svg";
 import figmaLogo from "@/public/icons/figma-original.svg";
@@ -49,19 +50,20 @@ export default function BannerTechology() {
       <div className="container">
         <div className="row justify-content-evenly justify-content-md-center">
           <div className="col-2 d-flex justify-content-center align-items-center">
-            <p className="fs-4 text-text-tertiary mb-0">Technologies:</p>
+            <p className="fs-4 text-light mb-0">Technologies:</p>
           </div>
           <div className="col-6 col-md-8 col-lg-7">
             <div className="scroller" data-direction="right" data-speed="slow">
               <div className="scroller__inner">
-                <Image className="img-fluid" src={nextLogo} alt="" height={size} width={size}/>
-                <Image className="img-fluid" src={reactLogo} alt="" height={size} width={size}/>
-                <Image className="img-fluid" src={html5Logo} alt="" height={size} width={size}/>
-                <Image className="img-fluid" src={javascriptLogo} alt="" height={size} width={size}/>  
-                <Image className="img-fluid" src={css3Logo} alt="" height={size} width={size}/>
-                <Image className="img-fluid" src={sassLogo} alt="" height={size} width={size}/>
-                <Image className="img-fluid" src={cloudFlareLogo} alt="" height={size} width={size}/>
-                <Image className="img-fluid" src={figmaLogo} alt="" height={size} width={size}/>
+                <Image className="img-fluid" src={nextLogo} alt="Next.js Logo" height={size} width={size}/>
+                <Image className="img-fluid" src={reactLogo} alt="React.js Logo" height={size} width={size}/>
+                <Image className="img-fluid" src={html5Logo} alt="HTML5 Logo" height={size} width={size}/>
+                <Image className="img-fluid" src={javascriptLogo} alt="JavaScript Logo" height={size} width={size}/>
+                <Image className="img-fluid" src={wordpressLogo} alt="WordPress Logo" height={size} width={size}/>
+                <Image className="img-fluid" src={css3Logo} alt="CSS Logo" height={size} width={size}/>
+                <Image className="img-fluid" src={sassLogo} alt="Sass Logo" height={size} width={size}/>
+                <Image className="img-fluid" src={cloudFlareLogo} alt="Cloudflare Logo" height={size} width={size}/>
+                <Image className="img-fluid" src={figmaLogo} alt="Figma Logo" height={size} width={size}/>
               </div>
             </div>
           </div>

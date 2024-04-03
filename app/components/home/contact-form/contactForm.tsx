@@ -11,7 +11,7 @@ export default function ContactForm() {
 
   return (
     <form className="container" method="POST" onSubmit={handleSubmit}>
-      <div className="row gy-3">
+      <div className="row gy-3 text-primary">
 
         <div className="col-12">
           <label htmlFor="name">Full Name</label>
@@ -31,8 +31,8 @@ export default function ContactForm() {
             <option value="Other">Other</option>
             <option value="Package 1">Basic HTML, JS, and CSS</option>
             <option value="Package 2">Page Builder</option>
-            <option value="Package 3">WordPress Website (Theme)</option>
-            <option value="Package 4">Headless WordPress Website</option>
+            <option value="Package 3">WordPress</option>
+            <option value="Package 4">Headless CMS</option>
           </select>
           <ValidationError prefix="Service Selection" field="serviceSelection" errors={state.errors} />
         </div>

@@ -19,9 +19,9 @@ export default function FeaturedWorks() {
   const data = content.home.featuredWorks.content;
 
   return (
-    <section className="home-featured-works my-5 mt-lg-0" style={{minHeight: "50dvh"}}>
+    <section className="home-featured-works bg-accent-light-blue py-5 mt-5 mt-md-0" style={{minHeight: "50dvh"}}>
       <h2 className="display-5 fw-medium text-center mb-lg-5"><span className="text-accent-secondary">Featured</span> Works</h2>
-      <div className="container d-flex flex-column flex-md-row flex-wrap justify-content-evenly justify-content-lg-between align-items-center">
+      <div className="container d-flex flex-column flex-md-row flex-wrap justify-content-evenly justify-content-lg-center align-items-center">
       {Object.keys(data).map((featuredWorkTitle) => (
         <Card 
         title={data[featuredWorkTitle as keyof FeaturedWorks].title}

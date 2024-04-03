@@ -47,7 +47,7 @@ export default function ContractExample() {
           <Image
             className="img-fluid"
             src={sideImage}
-            alt=""
+            alt="A man coding"
           />
         </div>
       </div>

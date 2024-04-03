@@ -1,6 +1,11 @@
+import { Metadata } from "next";
 import DOMPurify from "isomorphic-dompurify";
 import Image from "next/image";
 import content from "./content.json";
+
+export const metadata: Metadata = {
+  title: 'About'
+}
 
 export default function Page() {
   const data = content.about.content;

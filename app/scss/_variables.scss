@@ -11,3 +11,14 @@
     color: #016FB9;
   }
 }
+
+.custom-ul {
+  li {
+    list-style-image: url("/icons/bullet-point.svg");
+  }
+}
+
+.custom-underline {
+  text-decoration: #016FB9 underline 8px;
+  text-underline-offset: 10px;
+}

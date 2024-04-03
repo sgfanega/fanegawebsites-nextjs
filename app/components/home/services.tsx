@@ -17,7 +17,7 @@ export default function Services() {
   const servicesContent: ServicesContent = content.home.services.content;
 
   return (
-    <section className="home-services container d-flex flex-column justify-content-center my-5 my-md-0" style={{minHeight: "40dvh"}}>
+    <section className="home-services container d-flex flex-column justify-content-center my-5 my-md-0" style={{minHeight: "60dvh"}}>
       <h2 className="display-5 fw-medium text-center mb-md-5"><span className="text-accent-secondary">What</span> I Do</h2>
       <div className="row justify-content-evenly justify-content-lg-center">
         {Object.keys(servicesContent).map((serviceTitle) => (

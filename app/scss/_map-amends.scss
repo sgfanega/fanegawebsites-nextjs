@@ -2,14 +2,12 @@
 
 // Custom Colors
 $custom-theme-colors : (
+  "primary": #353531,
+  "secondary": #E6E6E6,
   "accent-primary": #EF8354,
   "accent-secondary": #016FB9,
-  "background-primary": #FFFFFF,
-  "background-secondary": #6C757D,
-  "background-tertiary": #353531,
-  "text-primary": #353531,
-  "text-secondary": #6C757D,
-  "text-tertiary": #E6E6E6
+  "accent-light-blue": #E6F1F8,
+  "gray": #6C757D,
 );
 
 $theme-colors: map-merge($theme-colors, $custom-theme-colors);

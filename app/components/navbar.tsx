@@ -36,10 +36,7 @@ export default function Navbar() {
               <a className={`nav-link ${activeLink === "/pricing" ? "active" : ""}`} href="/pricing">Pricing</a>
             </li>
             <li className="nav-item">
-              <a className={`nav-link ${activeLink === "/technologies" ? "active" : ""}`} href="/technologies">Technologies</a>
-            </li>
-            <li className="nav-item">
-              <a className={`nav-link ${activeLink === "/contact" ? "active" : ""}`} href="/contact">Contact</a>
+              <a className={`nav-link ${activeLink === "/#contact" ? "active" : ""}`} href="/#contact">Contact</a>
             </li>
           </ul>
         </div>
