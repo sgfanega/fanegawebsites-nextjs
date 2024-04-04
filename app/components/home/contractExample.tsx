@@ -20,7 +20,7 @@ export default function ContractExample() {
   const data = content.home.packages.examples.content;
 
   return (
-    <section className="container d-flex align-items-center" style={{minHeight: "80dvh"}}>
+    <section className="container d-flex align-items-center" style={{minHeight: "60dvh"}}>
       <div className="row justify-content-center justify-content-lg-start">
         <div className="col-10 col-lg-7">
           <h2 className="fs-1 fw-bold">Starting at <span className="text-accent-primary">$500</span>, No Subscription</h2>
