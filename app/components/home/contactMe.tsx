@@ -4,10 +4,10 @@ import contactImage from "@/public/home/contact-form.svg";
 
 export default function ContactMe() {
   return (
-  <section className="home-contact-me container-fluid d-flex flex-column justify-content-center py-5" id="contact" style={{minHeight: "80dvh"}}>
+  <section className="home-contact-me d-flex flex-column justify-content-evenly py-5" id="contact" style={{minHeight: "80dvh"}}>
     <h2 className="display-4 fw-medium text-center"><span className="text-accent-secondary">Contact</span> Me</h2>
     <div className="row justify-content-center my-3">
-      <div className="col-10 col-md-6 col-lg-4">
+      <div className="col-10 col-md-6">
         <div className="py-5 px-3 p-lg-5 bg-light shadow-lg rounded-3">
           <p className="fs-5 text-center text-primary">Get in contact with us!</p>
           <ContactForm/>
