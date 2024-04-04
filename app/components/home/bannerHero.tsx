@@ -3,7 +3,7 @@ import bannerHeroImage from "@/public/home/banner-hero-image.svg";
 
 export default function BannerHero() {
   return (
-    <section className="home-banner-hero container d-flex align-items-center mt-5 mt-lg-0" style={{minHeight: "60dvh"}}>
+    <section className="home-banner-hero container d-flex justify-content-center align-items-center mt-5 mt-lg-0" style={{minHeight: "60dvh"}}>
       <div className="row align-items-center">
         <div className="col-12 col-md-6">
           <Image
