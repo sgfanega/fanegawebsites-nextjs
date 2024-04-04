@@ -2,7 +2,7 @@
 
 @keyframes scroll {
 	to {
-		transform: translate(calc(-50% - 0.5rem));
+		transform: translate(calc(-50% - 1.5rem));
 	}
 }
 
@@ -10,7 +10,7 @@
 	padding-block: 1rem;
 	display: flex;
 	flex-wrap: wrap;
-	gap: 2rem;
+	gap: 3rem;
 	img {
 		height: 3rem;
 		width: 3rem;

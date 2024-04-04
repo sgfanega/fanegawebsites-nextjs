@@ -53,7 +53,7 @@ export default function BannerTechology() {
             <p className="fs-4 text-light mb-0">Technologies:</p>
           </div>
           <div className="col-6 col-md-8 col-lg-7">
-            <div className="scroller" data-direction="right" data-speed="slow">
+            <div className="scroller" data-direction="right" data-speed="fast">
               <div className="scroller__inner">
                 <Image className="img-fluid" src={nextLogo} alt="Next.js Logo" height={size} width={size}/>
                 <Image className="img-fluid" src={reactLogo} alt="React.js Logo" height={size} width={size}/>
